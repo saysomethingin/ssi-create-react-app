@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
+  "name": "ssi-react-scripts",
   "version": "5.0.1",
-  "description": "Configuration and scripts for Create React App.",
+  "description": "SSi configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "git@github.com:saysomethingin/ssi-create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
