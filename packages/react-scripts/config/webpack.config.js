@@ -415,7 +415,7 @@ module.exports = function (webpackEnv) {
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
               test: /\.(js|mjs|jsx|ts|tsx)$/,
-              include: [paths.appSrc, /automagic_react\//, /automagic_react\\/, /SSiReactLib\//, /SSiReactLib\\/],
+              include: [paths.appSrc, /automagic_react\//, /automagic_react\\/, /ssi-react-lib\//, /ssi-react-lib\\/],
               loader: require.resolve('babel-loader'),
               options: {
                 customize: require.resolve(
